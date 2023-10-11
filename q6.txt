@@ -1,0 +1,15 @@
+1. Does the change inside increment_int_a change the variable a after the function call? 
+Ans: No the change inside "increment_int_a" doesn't change the variable a after the function 
+     call. This is because Python pass arguments by value , which means that a copy of variable
+     is passed. The function modified the copy not the original value.
+
+2. Does the change inside increment_int_b change the variable b after the function call? 
+Ans: Yes, it does change the varible b. This is because Python dictionaries are mutable object.
+     When the increment_int_b function increments the value of the '32' key in the dictionary, the
+     original value is also changed.
+
+3. If they differ answer why? if not why not?
+Ans: The two functions differ because they pass their arguments in different ways. 
+     increment_int_a passes its argument by value, while increment_int_b passes its 
+     argument by reference. This means that increment_int_a only has access to a 
+     copy of the variable, while increment_int_b has access to the original variable.

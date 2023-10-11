@@ -1,0 +1,8 @@
+Write two uses for why you use inheritance in a program?
+
+Answer:
+    1.Code reuse: inheritance allows programmers to reuse their existing class without rewrite
+                  it every single time whenever they need to use it. This will save a lot of 
+                  time and effort, especially when developing more sophiscated program 
+    2. Adding new functionality: inheritance allows programmers to expand the functionality of 
+                                 existing classes
