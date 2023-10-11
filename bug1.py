@@ -8,10 +8,12 @@ class Base:
     return "This is a circle"
 
 class Circle(Base):
-    pass
-    
+    def __init__(self, x, y, size):
+      super().__init__(x, y, size)
+      
     def draw(self):
-        return f"""({self.x}, {self.y})\n{self.size}
+        return f"""
+  ({self.x}, {self.y})\n{self.size}
          , - ~ ~ ~ - ,
      , '               ' ,
    ,                       ,
