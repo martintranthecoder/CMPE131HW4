@@ -2,7 +2,7 @@ def merge_list(list1: list[int], list2: list[int] ) -> list[int]:
     newList = list1 + list2
     x = all(isinstance(x, int) for x in newList)
     if x == False:
-        raise ValueError("All values in the list should be Interger")
+        raise TypeError("All values in the list should be Interger")
     else:  
         newList = mergeSort(newList)
         return newList
