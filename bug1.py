@@ -12,8 +12,7 @@ class Circle(Base):
       super().__init__(x, y, size)
       
     def draw(self):
-        return f"""
-  ({self.x}, {self.y})\n{self.size}
+        return f"""({self.x}, {self.y})\n{self.size}
          , - ~ ~ ~ - ,
      , '               ' ,
    ,                       ,
